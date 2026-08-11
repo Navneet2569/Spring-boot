@@ -14,4 +14,9 @@
          <constructor-arg ref="userConfigBean"/>
     </bean>
 
+    <bean id="orderService" class="org.example.service.OrderService" factory-method="createInstance">
+         <constructor-arg ref="userService"/>
+         <constructor-arg ref="userConfigBean"/>
+    </bean>     
+
 </beans>
