@@ -1,6 +1,8 @@
 package org.example.bean;
 
 public class UserConfig {
+
+    // Learned Proxies, Reflection, Cacheable and CGLIB in Java
     private String name;
     private String className;
 
