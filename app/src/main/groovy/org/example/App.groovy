@@ -8,6 +8,7 @@ class App {
 
     //Learned Authentication and Authorization
     //Learned CAP Theorem and choosing databases
+    //Learned to create VPS
     static void main(String[] args) {
         println "Starting application"
         SpringApplication.run(App, args)
