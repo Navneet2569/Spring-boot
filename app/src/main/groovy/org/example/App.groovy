@@ -10,6 +10,7 @@ class App {
     //Learned CAP Theorem and choosing databases
     //Learned to create VPS
     // MySQL server setup done
+    // Completed the MYSQL setup on VPS
     static void main(String[] args) {
         println "Starting application"
         SpringApplication.run(App, args)
