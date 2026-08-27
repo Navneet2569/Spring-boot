@@ -12,7 +12,7 @@ class App {
     // MySQL server setup done
     // Completed the MYSQL setup on VPS
     // Designed LLD of the project
-    // Made ER diagram for the project
+    // Made ER diagram for the project Expense tracker app
     static void main(String[] args) {
         println "Starting application"
         SpringApplication.run(App, args)
